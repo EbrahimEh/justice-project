@@ -1,14 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Justice Project</title>
-    <link href="./input.css" rel="stylesheet">
+    <link href="./output.css" rel="stylesheet">
+    
 </head>
-<body>
-    <header>
 
+<body class="max-w-6xl mx-auto">
+    <header class="px-3">
+        <nav class="bg-indigo-500 text-white w-full rounded-lg">
+            <div class="navber flex flex-col md:flex-row justify-between items-center mt-5 p-3">
+                <div class="nav-logo flex items-center space-x-4">
+                    <img src="../images/business.png" alt="">
+                    <h2 class="text-3xl font-bold tracking-wider">Justice</h2>
+                </div>
+
+                <div class="nav-links p-4 md:p-0">
+                    <ul class="flex space-x-1 flex-col space-y-2 md:space-y-0  md:flex-row md:space-x-1 items-center ">
+                        <li class="hover:bg-amber-600 px-2 py-1 rounded-lg transition duration-600"><a href="#">Home</a></li>
+                        <li class="flex hover:bg-amber-600 px-4 py-1 rounded-lg transition duration-600"><a href="#">Services </a> <svg class="w-5 mt-1" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path strokeLinecap="round" strokeLinejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+                                </svg></li>
+                        <li class="flex hover:bg-amber-600 px-2 py-1 rounded-lg transition duration-600"><a href="#">Cases</a> <svg class="w-5 mt-1" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path strokeLinecap="round" strokeLinejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+                                </svg></li>
+                        <li class="flex hover:bg-amber-600 px-2 py-1 rounded-lg transition duration-600"><a href="#">Blog</a> <svg class="w-5 mt-1" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path strokeLinecap="round" strokeLinejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+                                </svg></li>
+                        <li class="hover:bg-amber-600 px-2 py-1 rounded-lg transition duration-600"><a href="#">Contact Us</a></li>
+
+                    </ul>
+                </div>
+
+                <div class="nav-button bg-[#B68C5A] px-8 py-3 rounded-lg hover:bg-amber-500 font-semibold">
+                    <button>Free Consultation</button>
+                </div>
+            </div>
+        </nav>
     </header>
 
     <main>
@@ -16,7 +47,8 @@
     </main>
 
     <footer>
-        
+
     </footer>
 </body>
+
 </html>
